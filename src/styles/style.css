@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     font-size: 96px;
+    line-height: 1.5;
 }
 
 h2{
@@ -38,7 +39,7 @@ p{
     padding:160px 20px;
 }
 
-.hero p{
+.hero p, .text-center{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
@@ -73,4 +74,32 @@ p{
 .container p{
     opacity: 90%;
     line-height: 30px;
+}
+
+.project-description{
+    padding:100px 60px
+}
+
+.col img{
+    padding: 75px 0px;
+}
+
+@media (max-width: 900px) {
+    h1{
+        font-size: 44px;
+        line-height: 1.5;
+    }
+
+    h2{
+        font-size: 44px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
