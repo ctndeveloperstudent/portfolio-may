@@ -20,7 +20,7 @@
 
 ## 21/5/24
 - R5 Sitemap
- ![alt text][<docs\New sitemap_ Wed May 22 2024.png>]  
+ ![alt text][</docs/New sitemap_ Wed May 22 2024.png>]  
 - R6 Wireframe
  ![alt text](<docs\wireframe.png>)
     - Wireframes or mockups of  the pages of your website. You must explain your decision making process relating to the overall aesthetic of your website
@@ -31,5 +31,14 @@
 - Added google fonts
 - Completed homepage section 1
 - Added wireframe to README.md
+- Completed homepage section 2
 
-[def]: <docs\New sitemap_Wed May 22 2024.png>
+##29/5/24
+- Completed About Page
+- Completed Work Page
+- Completed Contact Page
+- Completed Blog Page
+- To Do
+- - Make LinkedIn profile
+- - Header
+- - Footer

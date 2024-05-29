@@ -36,10 +36,10 @@ p{
 .hero{
     background-color: var(--secondary-color);
     text-align: center;
-    padding:160px 20px;
+    padding:130px 20px;
 }
 
-.hero p, .text-center{
+.hero p{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
@@ -51,6 +51,39 @@ p{
     font-weight: normal;
     font-size: 24px;
     line-height: 2;
+}
+
+.content-container{
+    padding:55px 20px;
+}
+
+.content-container img{
+    padding:20px 20px;
+}
+
+.content h1{
+    font-size: 55px;
+    line-height: 80px;
+}
+
+.content h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.content h3{
+    font-size: 24;
+    font-family: var(--default-font-family);
+    line-height: 1.5;
+}
+
+.content p{
+    color: #272142;
+    opacity: 70%;
+    font-size: 14px;
+}
+.content{
+    margin: 30px;
 }
 
 .btn-branding{
@@ -87,7 +120,7 @@ p{
 @media (max-width: 900px) {
     h1{
         font-size: 44px;
-        line-height: 1.5;
+        line-height: 56px;
     }
 
     h2{
@@ -95,7 +128,12 @@ p{
     }
 
     .hero {
-        padding: 80px 20px;
+        padding: 40px 20px;
+    }
+
+    .content{
+        text-align: center;
+        padding: 0;
     }
 
     .project-description {
