@@ -1,8 +1,0 @@
-To Do List for Today
-- SheCodes week 3 learn videos
-- Wireframe for homepage, about me, work, blog, contact me
-
-- R5 Sitemap
-    - An overview/sitemap of all the pages on your website. You must explain the overall structure of your website and how different pages will be navigated
-- R6 Wireframe
-    - Wireframes or mockups of  the pages of your website. You must explain your decision making process relating to the overall aesthetic of your website

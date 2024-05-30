@@ -34,7 +34,6 @@
 - Completed homepage section 2
 
 ## 29/5/24
-## 29/5/24
 - Completed About Page
 - Completed Work Page
 - Completed Contact Page
