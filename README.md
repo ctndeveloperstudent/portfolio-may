@@ -33,7 +33,7 @@
 - Added wireframe to README.md
 - Completed homepage section 2
 
-##29/5/24
+## 29/5/24
 - Completed About Page
 - Completed Work Page
 - Completed Contact Page
@@ -42,3 +42,7 @@
 - - Make LinkedIn profile
 - - Header
 - - Footer
+
+## 30/5/24
+- Completed header
+- LinkedIn profile in progress (https://www.linkedin.com/in/charmaine-nyathi-157007278/)
