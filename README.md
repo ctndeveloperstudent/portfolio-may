@@ -46,3 +46,10 @@
 ## 30/5/24
 - Completed header
 - LinkedIn profile in progress (https://www.linkedin.com/in/charmaine-nyathi-157007278/)
+
+## 31/5/24
+- Added footer
+- Activated buttons on every page
+- Added projects
+- Added individual blog posts
+-Udated image on blog 1
