@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography</title>
+    <link 
+        rel="icon" 
+        type="image/x-icon"
+        href="media/bp-icon-logo.jpg"
+    >
+<style>
+    .topnav {
+        background-color: black;
+        color: #ffc0cb;
+        text-align: center;
+        font-size: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .topnav a{
+        text-decoration: none;
+        flex: 1;
+    }
+
+    .topnav a:hover{
+        color:black;
+        background-color: #ffc0cb;
+        transition: all ease-in-out 200ms;
+    }
+
+    .navlogo{
+        padding-top:10px ;
+    }
+
+     #otherpage:link {
+        color: #ffc0cb;
+    }
+
+    #otherpage:visited {
+        color: #ffc0cb;
+    }
+
+    #otherpage:hover{
+        color:black;
+    }
+
+    #currentpage:link{
+        color:white;
+    }
+
+    #currentpage:link{
+        color:white;
+    }
+
+    #currentpage{
+        color:white;
+        text-decoration: underline;
+    }
+
+    #currentpage:hover{
+        color:black;
+        text-decoration: none;
+    }
+
+    body{
+        background-color: black;
+        color: white;
+        font-size: 26px;
+        display: grid; /* Displays body as a grid container */
+        align-content: center; /* Centers content vertically */
+        gap: 2rem; /* Sets gap between grid items */
+    }
+    
+    a{
+        color:#ffc0cb;
+    }
+
+    a:visited{
+        color:#ffc0cb;
+    }
+
+/* Unordered List Styling */
+    ul {
+        --col-gap: 2rem; /* Sets column gap variable */
+        --row-gap: 2rem; /* Sets row gap variable */
+        --line-w: 0.25rem; /* Sets line width variable */
+        display: grid; /* Displays list as a grid container */
+        grid-template-columns: var(--line-w) 1fr; /* Defines grid columns */
+        grid-auto-columns: max-content; /* Sets width of columns to fit content */
+        column-gap: var(--col-gap); /* Sets column gap using variable */
+        list-style: none; /* Removes default list styles */
+        width: min(60rem, 90%); /* Sets width of list */
+        margin-inline: auto; /* Centers list horizontally */
+    }
+
+/* Line Styling */
+    ul::before {
+        content: ""; /* Inserts content before list */
+        grid-column: 1; /* Positions the line */
+        grid-row: 1 / span 20; /* Spans the line vertically */
+        background: #382d2d; /* Sets background color of line */
+        border-radius: calc(var(--line-w) / 2); /* Rounds the line's corners */
+    }
+
+/* Columns */
+
+/* Row Gaps */
+    ul li:not(:last-child) {
+        margin-bottom: var(--row-gap); /* Sets margin between list items */
+    }
+
+/* Year Card Styling */
+    ul li {
+        grid-column: 2; /* Positions list items */
+        --inlineP: 1.5rem; /* Sets inline padding variable */
+        margin-inline: var(--inlineP); /* Sets margin between list items */
+        grid-row: span 2; /* Spans list items vertically */
+        display: grid; /* Displays list items as a grid container */
+        grid-template-rows: min-content min-content min-content; /* Defines grid rows */
+    }
+
+/* Year Date Styling */
+    ul li .date {
+        --dateH: 3rem; /* Sets date height variable */
+        height: var(--dateH); /* Sets height of date element */
+        margin-inline: calc(var(--inlineP) * -1); /* Adjusts margin for date element */
+        text-align: center; /* Centers text alignment */
+        background-color: var(--accent-color); /* Sets background color */
+        color: white; /* Sets text color */
+        font-size: 34px; /* Sets font size */
+        font-weight: 700; /* Sets font weight */
+        place-content: center; /* Centers content vertically and horizontally */
+        position: relative; /* Sets position relative to its normal position */
+        border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2); /* Rounds corners of date element */
+    }
+
+/* Date Flap Styling */
+    ul li .date::before {
+        content: ""; /* Inserts content before date element */
+        width: var(--inlineP); /* Sets width of flap */
+        aspect-ratio: 1; /* Maintains aspect ratio of flap */
+        background: var(--accent-color); /* Sets background color */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent); /* Sets background gradient */
+        position: absolute; /* Positions flap */
+        top: 100%; /* Positions flap at bottom of date element */
+        clip-path: polygon(0 0, 100% 0, 0 100%); /* Clips flap to create triangular shape */
+        right: 0; /* Positions flap to the right */
+    }
+
+/* Circle Styling */
+    ul li .date::after {
+        content: ""; /* Inserts content after date element */
+        position: absolute; /* Positions circle */
+        width: 2rem; /* Sets width of circle */
+        aspect-ratio: 1; /* Maintains aspect ratio of circle */
+        border: 0.3rem solid var(--accent-color); /* Sets border properties */
+        border-radius: 50%; /* Rounds circle */
+        top: 50%; /* Positions circle vertically */
+        transform: translate(50%, -50%); /* Centers circle horizontally and vertically */
+        right: calc(100% + var(--col-gap) + var(--line-w) / 2); /* Positions circle */
+    }
+
+/* Title and Description Styling */
+    ul li .title,
+    ul li .descr {
+        padding-inline: 1.5rem; /* Adds padding */
+    }
+    ul li .title {
+        padding-block-start: 1.5rem; /* Adds padding */
+        padding-block-end: 1rem; /* Adds padding */
+        font-weight: bold;
+    }
+    ul li .descr {
+        padding-block-end: 1.5rem; /* Adds padding */
+    }
+    
+    footer{
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="bpdiscography.html" id="otherpage">DISCOGRAPHY</a>
+        <a href="bphomepage.html">
+            <img class="navlogo" src="media\blackpink-fullname-logo.png" alt="Blackpink logo">
+        </a>
+        <a href="bpbio.html" id="currentpage">BIOGRAPHY</a>
+    </div>
+    <ul>
+        <li style="--accent-color:#382d2d">
+            <div class="date">2016</div>
+            <div class="title">The Beginning</div>
+            <div class="descr">
+                BLACKPINK debuted under YG Entertainment, consisting of members 
+                <a href="https://www.instagram.com/sooyaaa__/" target="_blank">Jisoo</a>, 
+                <a href="https://www.instagram.com/jennierubyjane/" target="_blank">Jennie</a>, 
+                <a href="https://www.instagram.com/roses_are_rosie/" target="_blank">Rosé</a>, and 
+                <a href="https://www.instagram.com/lalalalisa_m/"target="_blank">Lisa</a>. 
+                Their explosive debut single 
+                <a href="https://www.youtube.com/watch?v=bwmSjveL3Lc" target="_blank">"Boombaya"</a>and
+                <a href="https://www.youtube.com/watch?v=dISNgvVpWlo" target="_blank"> "Whistle"</a> 
+                showcased their unique blend of K-pop, hip-hop, and EDM, instantly capturing global attention.
+            </div>
+        </li>
+        <li style="--accent-color:#6a3a3a" id="biobody">
+            <div class="date">2018</div>
+            <div class="title">Record Breakers</div>
+            <div class="descr">
+                BLACKPINK shattered records with their hit 
+                <a href="https://www.youtube.com/watch?v=IHNzOHi8sJs" target="_blank"> "Ddu-Du Ddu-Du,"</a> 
+                becoming the most-viewed music video by a K-pop group on 
+                YouTube at the time. Their EP 
+                <a href="https://open.spotify.com/album/0wOiWrujRbxlKEGWRQpKYc" target="_blank">"Square Up"</a>
+                topped charts worldwide, solidifying their status as global superstars.
+            </div>
+        </li>
+        <li style="--accent-color:#9c4646">
+            <div class="date">2019</div>
+            <div class="title">World Tour and Collaboration</div>
+            <div class="descr">
+                The group embarked on their first world tour, captivating audiences 
+                with their electrifying performances. BLACKPINK also collaborated 
+                with artists like Dua Lipa, expanding their reach beyond the K-pop scene.
+            </div>
+        </li>
+        <li style="--accent-color:#ce5353">
+            <div class="date">2020</div>
+            <div class="title">Evolution and Domination</div>
+            <div class="descr">
+                In 2020, BLACKPINK continued to dominate the music industry with their 
+                first full-length album 
+                <a href="https://open.spotify.com/album/71O60S5gIJSIAhdnrDIh3N" target="_blank">"The Album"</a> 
+                ,featuring hits like 
+                <a href="https://www.youtube.com/watch?v=ioNng23DkIM" target="_blank"> "How You Like That"</a> and 
+                <a href="https://www.youtube.com/watch?v=dyRsYk0LyA8" target="_blank"> "Lovesick Girls"</a>.
+                They also made history as the first K-pop girl group to perform at 
+                <a href="https://www.youtube.com/watch?v=z9tifvQSu-g" target="_blank"> Coachella</a>.
+            </div>
+        </li>
+        <li style="--accent-color:#db5656">
+            <div class="date">2022</div>
+            <div class="title">Global Phenomenon</div>
+            <div class="descr">
+                BLACKPINK's influence soared to new heights in 2022. They cemented their 
+                status as global icons, collaborating with renowned brands and artists 
+                while consistently topping charts worldwide. Their journey from debut to 
+                global phenomenon remains an inspiration for fans worldwide.Be sure to check them out on 
+                <a href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A" target="_blank">Youtube</a>,
+                <a href="https://www.instagram.com/blackpinkofficial/" target="_blank">Instagram</a>,
+                <a href="https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF" target="_blank">Spotify</a> and
+                <a href="https://www.netflix.com/au/title/81106901" target="_blank">Netflix</a>.
+            </div>
+        </li>
+    </ul>
+    <footer>
+        <p>
+            &copy Coded by Charmaine Nyathi
+        </p>
+    </footer>
+</body>
+</html>
