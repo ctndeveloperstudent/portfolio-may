@@ -52,4 +52,4 @@
 - Activated buttons on every page
 - Added projects
 - Added individual blog posts
--Udated image on blog 1
+- Udated image on blog 1
