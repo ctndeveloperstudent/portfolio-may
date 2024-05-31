@@ -27,8 +27,14 @@ h2{
     font-size: 64px;
 }
 
-h4{
+h3{
     font-size: 48px;
+}
+
+h4{
+    font-family: var(--default-font-family);
+    font-size: 32px;
+    font-weight: 600;
 }
 
 p{
@@ -152,6 +158,12 @@ nav li.active a{
     color: var(--branding-color)
 }
 
+.contact-pg-social-links{
+    font-size: 20px;
+    color: var(--branding-color);
+    text-decoration: none;
+}
+
 footer{
     margin: 60px 0;
 }
@@ -203,7 +215,7 @@ footer .social-links a:hover{
         font-size: 44px;
     }
 
-    h4{
+    h3{
         font-size: 24px;
     }
 
