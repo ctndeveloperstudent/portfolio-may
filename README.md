@@ -53,3 +53,11 @@
 - Added projects
 - Added individual blog posts
 - Udated image on blog 1
+
+## OG Colour Scheme
+- :root{
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+   }
