@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rollerskating Landing Page</title>
+    <style>
+        
+        html{
+            background: linear-gradient(to bottom, #ebfffa 55%, white 100%);
+        }
+
+        h1{
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            color: #0dceda;
+            font-size: 62px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h2{
+            text-align: center;
+            opacity: 65%;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 75%;
+            border-radius: 20px;
+        }
+
+        p{
+            text-align: center;
+            opacity: 75%;
+            line-height: normal;
+            font-weight: normal;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a{
+            color: #0dceda;
+        }
+
+        button {
+        display: block;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: auto;
+        padding: 27px 37px;
+        border-radius: 40px;
+        font-size: large;
+        color: white;
+        background: #4DB0CF;
+        border: 1.5px solid #4DB0CF;
+        transition: all 150ms ease-in-out;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+        background: #ebfffa;
+        color: #4DB0CF;
+        cursor: pointer;
+        }
+
+        .footer{
+        font-family:'Courier New', Courier, monospace;
+        text-align: center;
+        }
+
+        .container{
+        max-width: 600px;
+        margin:0 auto;
+        padding: 60px;
+        }
+
+        .link{
+        font-size: 16.5px;
+        }
+
+        hr{
+        width: 60px;
+        opacity: 70%;
+        color: #4DB0CF;
+        }
+    
+    </style>
+</head>
+<body>
+ <div class="container">
+    <h1>
+        <strong>
+            Rollerskating
+        </strong>
+    </h1>
+    <h2>
+        Groove your way through 2024
+    </h2>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/696/original/9938637.jpg?1663849310">
+    <p>
+        Roller skating is the act of traveling on surfaces with roller skates. It is a recreational activity, a sport, and a
+        form of transportation. Roller rinks and skate parks are built for roller skating,
+        though it also takes place on streets, sidewalks, and bike paths.
+    </p>
+    <p>
+        Sport roller skating includes speed skating, roller hockey, roller derby, figure skating and aggressive quad
+        skating. Would you like to <span class="link"><a href="https://impalaskate.com.au/">buy your own skates?</a></span>
+    </p>
+    <br>
+    <br>
+    <button>
+        Sign up for a <em>free</em> online class!
+    </button>
+    <br>
+    <p class="footer">
+        Coded by Charmaine Nyathi
+    </p>
+    <br>
+    <hr>
+</div>
+<script>   
+    function signup() {
+        let name = prompt("What's your name?");
+        let email = prompt("What's your email address?")
+        let age = prompt("How old are you?");
+
+        if (age >= 18) {
+            let heading = document.querySelector("h1");
+            heading.innerHTML = "Hi " + name + ", Thanks for signing up!";
+        } else {
+            let heading = document.querySelector("h1");
+            heading.innerHTML = "Sorry " + name + ", you have to be 18 to join!";
+        }
+    }
+
+
+    let freeClassButton = document.querySelector("button");
+    freeClassButton.addEventListener("click", signup);
+</script>
+</body>
+</html>

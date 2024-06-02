@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma. 2020</title>
+<style>
+    
+      body {
+        background: linear-gradient(-180deg, #F6E6B6 0%, #FCF6E5 100%);
+      }
+
+      h1 {
+        text-align: center;
+        color:#E5B525;
+        font-size: 50px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 600px;
+        padding: 20px;
+        background: #FDFAF0;
+        border-radius: 10px;
+        margin: 20px auto;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        line-height: 27px;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      .themebutton {
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+        font-size: 14px;
+      }
+
+      .themebutton:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 150ms ease-in-out;
+      }
+
+      .watchbutton {
+        margin: 10px auto;
+        margin-top: 20px;
+        display: block;
+        font-size: 18px;
+        padding: 10px 18px;
+        border-radius: 15px;
+        border: none;
+        background: #F6E7B9;
+      }
+
+      .watchbutton:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 150ms ease-in-out;
+      }
+
+      .emmaintropicture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .emmaintropicture:hover {
+        filter: contrast(105%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin: 20px 0;
+      }
+
+      .grid img {
+        width: 100%;
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      .wiki {
+        color:#E5B525;
+        font-weight: bold;
+      }
+
+      a:link {
+        text-decoration: none;
+        
+      }
+
+      .alumnilink:visited {
+        text-decoration: none;
+        color:black;
+      }
+
+      .dark .alumnilink:visited {
+        color:white;
+      }
+
+      .dark {
+        background: #121212;
+      }
+
+      .dark .container {
+        background:#282828;
+        color:white;
+      }
+
+      .dark a {
+        color:#E5B525;
+      }
+
+      .dark footer {
+        color:white;
+      }
+
+      .dark .themebutton {
+        background-color: white;
+        color: black;
+      }
+
+      .dark .themebutton:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 150ms ease-in-out;
+      }
+
+      .dark .watchbutton  {
+        background-color: #E5B525;
+      }
+    
+</style>
+</head>
+<body>
+    <button class="themebutton">Change Theme</button>
+    <div class="container">
+        <h1>E M M A.</h1>
+    
+        <h2>My favourite film.</h2>
+        <a href="https://en.wikipedia.org/wiki/Emma_(2020_film)" target="_blank">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/515/original/emmacherry.jpg?1665719246"
+                alt="Emma Poster" class="emmaintropicture">
+        </a>
+        <div class="grid">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/221/original/hariet'sroom.jpg?1665577720"
+                alt="Harriet's Room">
+    
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/219/original/dancingattheball.jpg?1665577699"
+                alt="Dancing">
+    
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/516/original/eltons.jpg?1665723166"
+                alt="TheEltons">
+    
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/218/original/bigpainting.jpg?1665577689"
+                alt="Big Paintng">
+        </div>
+    
+        <p>
+            Emma (stylized as Emma.) is a 2020 period romantic comedy film directed
+            by Autumn de Wilde, from a screenplay by Eleanor Catton, based on Jane
+            Austen's 1815 novel of the same name. It stars Anya Taylor-Joy as Miss
+            Emma Woodhouse, a wealthy and elegant young woman living with her father
+            in Regency-era England who amuses herself with matchmaking and meddles
+            in the romantic lives of those closest to her. The film also stars
+            Johnny Flynn, Josh O'Connor, Callum Turner, Mia Goth, Miranda Hart, and
+            Bill Nighy.
+        </p>
+    
+        <a href="https://en.wikipedia.org/wiki/Emma_(2020_film)" target="_blank" class="wiki">
+            📙Read more on Wikipedia
+        </a>
+    
+        <br>
+        <a href="https://www.netflix.com/dk-en/title/81178288" target="_blank">
+            <button class="watchbutton">Watch Emma. on Netflix</button>
+        </a>
+    </div>
+    <footer>Coded by <a href="https://www.shecodes.io/graduates/56518-charmaine-nyathi" target="_blank"
+            class="alumnilink">Charmaine Nyathi</a> with HTML, CSS and JavaScript
+    </footer>
+<script>
+        function changeTheme(){
+            let body=document.querySelector("body");
+
+        body.classList.toggle("dark");
+    }
+
+        let themeButton = document.querySelector(".themebutton");
+        themeButton.addEventListener("click" , changeTheme);
+</script>
+</body>
+</html>
