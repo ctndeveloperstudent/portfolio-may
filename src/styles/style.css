@@ -133,7 +133,6 @@ p{
 
 .blog-image{
     text-align: center;
-    width:1100px;
 }
 
 .col img{
@@ -272,7 +271,6 @@ footer .social-links a:hover{
     }
 
     .blog-image {
-        text-align: center;
         width:fit-content;
     }
 
