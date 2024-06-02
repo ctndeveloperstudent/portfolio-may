@@ -81,3 +81,15 @@ Desktop Contact Screenshot
 Mobile Contact Screenshot
 ![Mobile/Tablet Contact Page Screenshot](docs\contact_page_screenshot_tablet_mobile.png)
 
+
+## HTML Components
+1. Header: Used to navigate the website and give user an overview of the website. Styling is simple, classic and easy to use.
+2. Intro section: Introduces me to the user and allows them to contact me and download my resume and cover letter. Styling is clear and clean to grab the user's attention.
+3. Learn more button: Allows the user to go from project preview on the home page, directly to work page so they can launch the project. Styled using the branding colour and has a 100ms transition applied for smooth use.
+4. Contact section: Gives a minimal view of my social platforms and allows the user to click and access them. Styled using icons and light colour to draw attention to the area and seperate it from the rest of the page.
+
+## Graphic Components
+1. Social Icons: Use icon images for an uncluttered look and ease of use for the user. All icons are links that open to a different tab so the user can explore my other social pages without leaving the portfolio.
+2. Image: Image is styled so it has a different size and look depending on the device used to view it, Image is not too big compared to the text and will not overwhelm anyone whole scrolls past or looks at it.
+3. Image: Image is styled so it has a different size and look depending on the device used to view it, Image is not too big compared to the text and will not overwhelm anyone whole scrolls past or looks at it.
+4. Image: Image is styled so it has a different size and look depending on the device used to view it, Image is not too big compared to the text and will not overwhelm anyone whole scrolls past or looks at it.
