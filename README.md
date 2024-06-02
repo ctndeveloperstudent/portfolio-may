@@ -34,37 +34,50 @@ Desktop Wireframe
 ![Desktop Wireframe](docs\desktop_wireframe.png)
 
 Tablet and Mobile Wireframe
-![Tablet and Mobile Wireframe]()
+![Tablet and Mobile Wireframe](docs\mobile_tablet_wireframe.png)
 
 ### Homepage: 
 Includes the nav bar, hero page to introduce me, including an option to contact me or to download and view my resume and cover letter, brief display of my projects with incentive to learn more and a footer with links to contact me and direction to my professional accounts (LinkedIn and Github) as well as my email address. There’s also a line to showcase my github and the fact that my portfolio is open sourced.
 
-![Desktop Homepage Screenshot]()
-![Mobile/Tablet Homepage Screenshot]()
+Homepage Desktop Screenshot
+![Desktop Homepage Screenshot](docs\homepage_screenshot_desktop.png)
+
+Homepage Mobile and Tablet Screenshot
+![Mobile/Tablet Homepage Screenshot](docs\homepage_screenshot_tablet_mobile.png)
 
 ### About Me: 
 Includes my name and my job description followed up by an image and a paragraph about me. The paragraph includes information about me, education, skills, coding languages, my interests and why i’l learning to code.
 
-![Desktop About Page Screenshot]()
-![Mobile/Tablet About Page Screenshot]()
+Desktop About Me Screenshot
+![Desktop About Page Screenshot](docs\about_page_screenshot_desktop.png)
+
+Mobile/Tablet About Me Screenshot
+![Mobile/Tablet About Page Screenshot](docs\about_page_screenshot_tablet_mobile.png)
 
 ### Work: 
 The work page includes a preview of all my projects, their title and information about what coding languages were used to build them. These projects are built around my interests, my favourite movie, my favourite band and my favourite hobby. There’s also a launch project button that leads the viewer to experience the project for themselves.
 
-![Desktop Work Page Screenshot]()
-![Mobile/Tablet Work Page Screenshot]()
+Desktop Work Page Screenshot
+![Desktop Work Page Screenshot](docs\work_page_screenshot_desktop.png)
+
+Mobile/Tablet Page Screenshot
+![Mobile/Tablet Work Page Screenshot](docs\work_page_screenshot_tablet_mobile.png)
 
 ### Blog: 
 Includes a list of 5 blog posts with their images and the date they were published as well as preview text for each one and a button to view the whole post. Each individual post is made with royalty free images and placeholder text. Below the text there are navigation buttons to move to the previous post or the next.
 
-![Desktop Blog Page Screenshot]()
-![Mobile/Tablet Blog Page Screenshot]()
-![Desktop Blog Individual Page Screenshot]()
-![Mobile/Tablet Blog Individual Page Screenshot]()
+Desktop Blog Screenshot
+![Desktop Blog Page Screenshot](docs\blog_page_screenshot_desktop.png)
+
+Mobile Blog Screenshot
+![Desktop Blog Page Screenshot](docs\blog_page_screenshot_tablet_mobile.png)
 
 ### Contact Page
 Includes clean and simple calls to actions with my contact details and social links which are all clickable.
 
-![Desktop Contact Page Screenshot]()
-![Mobile/Tablet Contact Page Screenshot]()
+Desktop Contact Screenshot
+![Desktop Contact Page Screenshot](docs\contact_page_screenshot_desktop.png)
+
+Mobile Contact Screenshot
+![Mobile/Tablet Contact Page Screenshot](docs\contact_page_screenshot_tablet_mobile.png)
 
