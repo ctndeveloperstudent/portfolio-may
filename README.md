@@ -21,7 +21,7 @@ This portfolio begins with the homehero page that introduces me, displays a prev
 
 The next page is the blog page, with a preview of the posts and an option to view more. Finally the contact page, where the employer can learn more via Github and Linkedin or they can contact me directly via phone or email.
 
-![Portfolio Sitemap](docs\sitemap.png)
+![Portfolio Sitemap](docs/sitemap.png)
 
 ### Wireframe & Overall Aesthetic of the Website
 The aesthetic for my portfolio is clean with a hint of cohesive colour. I chose a minimalistic design of a white background with black text with a decreased opacity so the intensity is minimised and is therefore pleasing to the eyes to read. I chose purple to give my portfolio a pop of colour because it combines the fierceness of red with the calm stability of blue. I then chose a variety of shades to maintain the cohesive design while being interesting from a design perspective.
@@ -31,55 +31,48 @@ I used CSS grids and flex box to produce a layout that would suit any device: ph
 My design for a mobile phone and a tablet are identical so in-order not to repeat myself twice unnecessarily, I chose to use one media query with a max width of 900px and it works great on every device.
 
 Desktop Wireframe
-![Desktop Wireframe](docs\desktop_wireframe.png)
+![Desktop Wireframe](docs/desktop_wireframe.png)
 
 Tablet and Mobile Wireframe
-![Tablet and Mobile Wireframe](docs\mobile_tablet_wireframe.png)
+![Tablet and Mobile Wireframe](docs/mobile_tablet_wireframe.png)
 
 ### Homepage: 
 Includes the nav bar, hero page to introduce me, including an option to contact me or to download and view my resume and cover letter, brief display of my projects with incentive to learn more and a footer with links to contact me and direction to my professional accounts (LinkedIn and Github) as well as my email address. There’s also a line to showcase my github and the fact that my portfolio is open sourced.
 
 Homepage Desktop Screenshot
-![Desktop Homepage Screenshot](docs\homepage_screenshot_desktop.png)
+![Desktop Homepage Screenshot](docs/homepage_screenshot_desktop.png)
 
 Homepage Mobile and Tablet Screenshot
-![Mobile/Tablet Homepage Screenshot](docs\homepage_screenshot_tablet_mobile.png)
+![Mobile/Tablet Homepage Screenshot](docs/homepage_screenshot_tablet_mobile.png)
 
 ### About Me: 
 Includes my name and my job description followed up by an image and a paragraph about me. The paragraph includes information about me, education, skills, coding languages, my interests and why i’l learning to code.
 
 Desktop About Me Screenshot
-![Desktop About Page Screenshot](docs\about_page_screenshot_desktop.png)
+![Desktop About Page Screenshot](docs/about_page_screenshot_desktop.png)
 
 Mobile/Tablet About Me Screenshot
-![Mobile/Tablet About Page Screenshot](docs\about_page_screenshot_tablet_mobile.png)
+![Mobile/Tablet About Page Screenshot](docs/about_page_screenshot_tablet_mobile.png)
 
 ### Work: 
 The work page includes a preview of all my projects, their title and information about what coding languages were used to build them. These projects are built around my interests, my favourite movie, my favourite band and my favourite hobby. There’s also a launch project button that leads the viewer to experience the project for themselves.
 
 Desktop Work Page Screenshot
-![Desktop Work Page Screenshot](docs\work_page_screenshot_desktop.png)
+![Desktop Work Page Screenshot](docs/work_page_screenshot_desktop.png)
 
 Mobile/Tablet Page Screenshot
-![Mobile/Tablet Work Page Screenshot](docs\work_page_screenshot_tablet_mobile.png)
+![Mobile/Tablet Work Page Screenshot](docs/work_page_screenshot_tablet_mobile.png)
 
-### Blog: 
-Includes a list of 5 blog posts with their images and the date they were published as well as preview text for each one and a button to view the whole post. Each individual post is made with royalty free images and placeholder text. Below the text there are navigation buttons to move to the previous post or the next.
 
-Desktop Blog Screenshot
-![Desktop Blog Page Screenshot](docs\blog_page_screenshot_desktop.png)
-
-Mobile Blog Screenshot
-![Desktop Blog Page Screenshot](docs\blog_page_screenshot_tablet_mobile.png)
 
 ### Contact Page
 Includes clean and simple calls to actions with my contact details and social links which are all clickable.
 
 Desktop Contact Screenshot
-![Desktop Contact Page Screenshot](docs\contact_page_screenshot_desktop.png)
+![Desktop Contact Page Screenshot](docs/contact_page_screenshot_desktop.png)
 
 Mobile Contact Screenshot
-![Mobile/Tablet Contact Page Screenshot](docs\contact_page_screenshot_tablet_mobile.png)
+![Mobile/Tablet Contact Page Screenshot](docs/contact_page_screenshot_tablet_mobile.png)
 
 
 ## HTML Components
